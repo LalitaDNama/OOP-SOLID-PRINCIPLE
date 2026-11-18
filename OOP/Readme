@@ -1,0 +1,43 @@
+Object-Oriented Programming (OOP) is a programming paradigm that revolves around the concept of objects,
+which represent real-world entities and their interactions. Java is an object-oriented programming language
+that enables developers to create modular, reusable, and scalable applications. In this article,
+we’ll explore all seven fundamental OOP concepts in Java: Encapsulation, Inheritance, Polymorphism,
+Abstraction, Association, Aggregation, and Composition along with code examples to illustrate their
+applications.
+
+1. Encapsulation
+Encapsulation is the process of bundling data (attributes) and methods (functions) that operate on
+the data within a single unit, known as a class. It helps protect an object’s internal state by
+restricting direct access to its attributes and providing controlled access through public methods.
+
+2. Inheritance
+Inheritance is the mechanism by which one class can inherit properties (attributes) and methods from
+another class. This allows developers to create new classes based on existing ones, promoting code
+reusability and reducing redundancy.
+
+3. Polymorphism
+Polymorphism is the ability of an object to take on different forms. In Java, polymorphism allows objects
+of different classes to be treated as objects of a common superclass. This enables developers to write more
+flexible and extensible code.
+
+4. Abstraction
+Abstraction is the process of hiding the complexity of a system and exposing only the essential features
+to the user. In Java, abstraction can be achieved using abstract classes and interfaces. Abstract classes
+are classes that cannot be instantiated and can contain abstract methods (methods without a body).
+Interfaces define a contract for implementing classes, specifying a set of methods that must be implemented.
+
+5.Association
+Association is another fundamental principle of OOP that describes the relationship between classes.
+It represents a general “has-a” or “uses-a” relationship between objects, allowing them to communicate.
+Association can be unidirectional (one-way) or bidirectional (two-way), depending on whether the relationship
+is defined in one or both classes.
+
+6. Aggregation
+Aggregation is a weak form of association that represents a “has-a” or “part-of” relationship between objects.
+In aggregation, the composed object (whole) can exist independently of its parts, and the whole does not
+manage the lifetime of the parts. If the whole is destroyed, the parts can still exist.
+
+7. Composition
+A composition is an intense form of association that represents a “has-a” or “part-of” relationship between
+objects, similar to aggregation. However, in composition, the composed object (entire) is responsible for
+managing the lifetime of its parts. If the entire is destroyed, its parts are also destroyed.
