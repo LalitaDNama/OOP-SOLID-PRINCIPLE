@@ -1,1 +1,2 @@
-# LalitaDNama-OOP-with-Java
+OOP
+SOLID Principle
