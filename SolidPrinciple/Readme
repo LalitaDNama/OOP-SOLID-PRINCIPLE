@@ -1,0 +1,24 @@
+SOLID principles are a set of five design principles used in object-oriented programming. Adhering to these principles will help you develop robust software. They will make your code more efficient, readable, and maintainable.
+
+SOLID is an acronym that stands for:
+
+Single Responsibility Principle
+Open/Closed Principle
+Liskov Substitution Principle
+Interface Segregation Principle
+Dependency Inversion Principle
+
+Single Responsibility Principle
+The single responsibilty principle states that every class must have a single, focused responsibility, a single reason to change.
+
+Open/Closed Principle
+According to the open/closed priniciple, components must be open for extension, but, closed for modification
+
+Liskov Substitution Principle
+The Liskov substitution principle states that you must be able to replace a superclass object with a subclass object without affecting the correctness of the program.
+
+Interface Segregation Principle
+According to the interface segregation principle, you should build small, focused interfaces that do not force the client to implement behavior they do not need.
+
+Dependency Inversion Principle
+In the dependency inversion principle, high-level modules should not depend on low-level modules. In other words, you must follow abstraction and ensure loose coupling
